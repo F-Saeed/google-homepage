@@ -1,0 +1,77 @@
+body {
+  color: rgb(32, 33, 36);
+  font-family: arial, sans-serif;
+}
+
+.main-nav-container {
+  margin-top: 16px;
+  display: flex;
+  flex: 0 0 auto;
+  font-size: 13px;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 30px;
+  white-space: nowrap;
+}
+
+.text-items {
+  padding-right: 14px;
+}
+
+.text-items,
+.hamburger,
+.sign-in {
+  display: inline-block;
+  outline: none;
+  vertical-align: middle;
+  line-height: normal;
+}
+
+.images,
+.gmail {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.images:hover,
+.gmail:hover {
+  text-decoration: underline;
+  opacity: 0.85;
+}
+
+.hamburger-img {
+  display: block;
+  background-image: url("https://ssl.gstatic.com/gb/images/i1_1967ca6a.png");
+  background-position: -132px -38px;
+  width: 30px;
+  height: 30px;
+  opacity: 0.55;
+}
+
+.hamburger-img:hover {
+  opacity: 1;
+}
+
+.sign-in {
+  margin-left: 11px;
+}
+
+.sign-in-img {
+  display: block;
+  width: 70px;
+  height: 30px;
+  background-color: #4285f4;
+  text-align: center;
+  text-decoration: none;
+}
+
+.sign-in-img:hover {
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+}
+
+span {
+  color: #fff;
+  display: inline-block;
+  font-weight: bold;
+  margin: 8px 0;
+}
