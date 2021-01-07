@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/css-reset.css" />
     <link rel="stylesheet" href="styles/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
     <title>Google Homepage Clone</title>
     <link
       rel="shortcut icon"
@@ -48,6 +54,48 @@
           </div>
         </div>
       </nav>
+      <main>
+        <section class="google-logo">
+          <img
+            class="google-logo-img"
+            src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+            alt="Google logo"
+          />
+        </section>
+        <form class="search-form" action="/search" method="GET" role="search">
+          <div class="search-bar">
+            <div class="search-icon-container">
+              <span>
+                <i class="fas fa-search"></i>
+              </span>
+            </div>
+            <div class="search-text-container">
+              <input class="search-text" type="text" />
+            </div>
+          </div>
+        </form>
+        <section class="buttons">
+          <input class="search-button" type="submit" value="Google Search" />
+          <input class="lucky-button" type="submit" value="I'm feeling lucky" />
+        </section>
+        <section class="languages">Google offered in:</section>
+      </main>
+      <footer>
+        <section class="location"><span>Location</span></section>
+        <section class="copyright">
+          <span class="left-side">
+            <a class="link" href="#">Advertising</a>
+            <a class="link" href="#">Business</a>
+            <a class="link" href="#">About</a>
+            <a class="link" href="#">How search works?</a>
+          </span>
+          <span class="right-side">
+            <a class="link" href="#">Privacy</a>
+            <a class="link" href="#">Terms</a>
+            <a class="link" href="#">Settings</a>
+          </span>
+        </section>
+      </footer>
     </header>
   </body>
 </html>
